@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  z-index: 3;
+}
+header nav {
+  width: 80%;
+}
+header nav .collapseDiv {
+  justify-content: flex-end;
+}
+header nav .collapseDiv ul {
+  gap: 20px;
+  margin-left: 20px;
+}
+header nav .collapseDiv .navbar-nav .nav-item .nav-link {
+  font-weight: bold;
+  color: rgb(94, 92, 92);
+}
+header nav .collapseDiv .navbar-nav .nav-item .nav-link:hover {
+  color: rgb(54, 114, 163);
+}
+header nav .dropdown-menu .dropdown-item {
+  font-weight: bold;
+  color: rgb(94, 92, 92);
+}
+header nav .dropdown-menu .dropdown-item:hover {
+  color: rgb(54, 114, 163);
+}
+
+#ourservice {
+  width: 100%;
+  margin: 20px 0px;
+  padding: 20px 0px;
+  height: 700px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  color: white;
+  background-image: url("https://preview.colorlib.com/theme/blogger/img/header-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#ourservice .container {
+  width: 80%;
+  height: auto;
+}
+#ourservice .container .ourservicecontent {
+  margin-bottom: 20px;
+  padding: 20px 0px;
+}
+#ourservice .container .ourservicecontent h1 {
+  margin: 20px 0px;
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 20px;
+  padding: 20px 0px;
+}
+#ourservice .container .ourservicecontent p {
+  padding: 0px 20px;
+  margin: 20px 0px;
+  color: white;
+}
+#ourservice .container .ourservicecontent span {
+  margin-right: 20px;
+  margin: 20px 0px;
+}
+
+#categories {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#categories .container .head {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 20px 0px;
+  padding: 20px 0px;
+}
+#categories .container .head p {
+  font-weight: 300;
+}
+#categories .container .categoriesitem img {
+  margin: 20px 0px;
+}
+#categories .container .categoriesitem span {
+  background-color: black;
+  margin: 20px 0px;
+  padding: 5px;
+  width: 80px;
+  color: white;
+}
+#categories .container p {
+  margin: 20px 0px;
+  font-weight: bold;
+  font-size: 17px;
+}
